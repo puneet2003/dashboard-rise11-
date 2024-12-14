@@ -45,7 +45,10 @@ The live dashboard can be accessed here: [Live Dashboard](https://dashboard-rise
   ![Tablet Screenshot](https://github.com/puneet2003/dashboard-rise11-/blob/main/src/assets/screenshots/Tablet.png)
 
 - **Mobile View:**
-  ![Mobile Screenshot_1](https://github.com/puneet2003/dashboard-rise11-/blob/main/src/assets/screenshots/Mobile_1.png) ![[Mobile Screenshot_2](https://github.com/puneet2003/dashboard-rise11-/blob/main/src/assets/screenshots/Mobile_2.png) ![[Mobile Screenshot_3](https://github.com/puneet2003/dashboard-rise11-/blob/main/src/assets/screenshots/Mobile_3.png) ![[Mobile Screenshot_4](https://github.com/puneet2003/dashboard-rise11-/blob/main/src/assets/screenshots/Mobile_4.png)
+  ![Mobile Screenshot_1](https://github.com/puneet2003/dashboard-rise11-/blob/main/src/assets/screenshots/Mobile_1.png)
+  ![[Mobile Screenshot_2](https://github.com/puneet2003/dashboard-rise11-/blob/main/src/assets/screenshots/Mobile_2.png)
+  ![[Mobile Screenshot_3](https://github.com/puneet2003/dashboard-rise11-/blob/main/src/assets/screenshots/Mobile_3.png)
+  ![[Mobile Screenshot_4](https://github.com/puneet2003/dashboard-rise11-/blob/main/src/assets/screenshots/Mobile_4.png)
 
 ## Installation Instructions
 
