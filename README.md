@@ -39,7 +39,7 @@ The live dashboard can be accessed here: [Live Dashboard](https://dashboard-rise
 ## Screenshots
 
 - **Desktop View:**
-  ![Desktop Screenshot]({Desktop.png})
+  ![Desktop Screenshot](https://github.com/puneet2003/dashboard-rise11-/blob/main/src/assets/screenshots/Desktop.png)
 
 - **Tablet View:**
   ![Tablet Screenshot]()
