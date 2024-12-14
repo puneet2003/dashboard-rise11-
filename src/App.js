@@ -5,7 +5,7 @@ import "./App.css"
 
 function App() {
   return (
-    <div className="bg-blue-600 min-h-screen top-0">
+    <div className="bg-blue-600 h-screen top-0 ">
       <div className=" dashboard fixed flex flex-col md:flex-row mx-28 my-10 h-[90%] ">  {/* Set h-full to the container */}
         {/* Sidebar */}
         <Sidebar className="" /> {/* Ensure Sidebar takes full height */}

@@ -1,0 +1,220 @@
+/* General resets for box-sizing */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Ensure the root element scales fonts properly */
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Background and container styles */
+  .bg-blue-600 {
+    background-color: #1e40af; /* Adjust for better contrast if needed */
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: column; /* Default to column for smaller screens */
+    margin: 1rem; /* Margins for small screens */
+    height: auto; /* Ensure height adjusts automatically for content */
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 100%; /* Full width on small screens */
+    flex: none; /* Sidebar won't shrink */
+  }
+  
+  /* Main content styling */
+  .main-content {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  
+  /* Icons in the header */
+  .fa-solid {
+    font-size: 1.25rem;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (min-width: 768px) {
+    .dashboard {
+      flex-direction: row; /* Switch to row for tablets and above */
+      margin: 2.5rem 7rem; /* Margins for larger screens */
+      height: 90%; /* Restore fixed height */
+    }
+  
+    .sidebar {
+      width: auto; /* Sidebar's default width */
+    }
+  
+    .main-content {
+      margin-top: 0;
+      height: auto; /* Allow height to adjust */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard {
+      flex-direction: column; /* Stack elements vertically */
+      margin: 0.5rem; /* Reduce margin on small screens */
+    }
+  
+    .main-content {
+      height: auto; /* Allow content to flow naturally */
+      padding: 0.5rem; /* Reduce padding for smaller screens */
+    }
+  
+    .fa-solid {
+      font-size: 1rem; /* Scale down icons */
+    }
+  }
+  
+  /* Mobile-specific adjustments */
+  @media (max-width: 480px) {
+    .dashboard {
+      margin: 0.25rem; /* Further reduce margins */
+    }
+  
+    .main-content {
+      padding: 0.25rem; /* Minimal padding for very small screens */
+    }
+  
+    .fa-solid {
+      font-size: 0.9rem; /* Make icons smaller */
+    }
+  }
+
+  
+  /* Sidebar container */
+.sidebar {
+    width: 100%; /* Full width on small screens */
+    max-width: 14rem; /* Limit width on larger screens */
+    min-width: 12rem;
+    height: 100vh; /* Ensure sidebar stretches full height */
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo section */
+  .sidebar .logo-section {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .sidebar .logo-section img {
+    width: 3rem;
+    height: auto;
+  }
+  
+  .sidebar .logo-section h1 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Navigation links */
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar nav li {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    color: #4b5563;
+    font-size: 0.875rem;
+    transition: color 0.2s;
+    cursor: pointer;
+  }
+  
+  .sidebar nav li:hover {
+    color: #2563eb; /* Blue color on hover */
+  }
+  
+  .sidebar nav li i {
+    margin-right: 1rem;
+  }
+  
+  /* Promo Section */
+  .sidebar .promo {
+    margin: 1rem;
+    background-color: #93c5fd;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.875rem;
+  }
+  
+  .sidebar .promo img {
+    width: 100%;
+    max-width: 10rem;
+    height: auto;
+    margin: 0.5rem auto;
+    border-radius: 0.5rem;
+  }
+  
+  /* Responsive Design */
+  
+  /* For tablets and smaller screens */
+  @media (max-width: 768px) {
+    .sidebar {
+      flex-direction: row; /* Convert sidebar to horizontal layout */
+      height: auto; /* Adjust height for smaller screens */
+    }
+  
+    .sidebar nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 0.5rem;
+    }
+  
+    .sidebar nav li {
+      font-size: 0.75rem; /* Reduce font size */
+    }
+  
+    .sidebar .promo {
+      display: none; /* Hide promo section on tablets */
+    }
+  }
+  
+  /* For mobile screens */
+  @media (max-width: 480px) {
+    .sidebar {
+      flex-direction: column; /* Stack items for very small screens */
+      height: auto;
+    }
+  
+    .sidebar .logo-section {
+      justify-content: center; /* Center align the logo */
+    }
+  
+    .sidebar nav ul {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    .sidebar nav li {
+      justify-content: center; /* Center align items */
+      padding: 0.5rem;
+    }
+  
+    .sidebar nav li i {
+      margin-right: 0.5rem;
+    }
+  }
+  
