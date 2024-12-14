@@ -1,3 +1,8 @@
+# submitted by 
+Name - Puneet Kumar
+College - MNNIT Allahabad
+Reg. No - 2022ca071 
+
 # Full Stack Intern Dashboard - Assignment
 
 ## Overview
@@ -34,7 +39,7 @@ The live dashboard can be accessed here: [Live Dashboard](https://dashboard-rise
 ## Screenshots
 
 - **Desktop View:**
-  ![Desktop Screenshot]()
+  ![Desktop Screenshot]({Desktop.png})
 
 - **Tablet View:**
   ![Tablet Screenshot]()
