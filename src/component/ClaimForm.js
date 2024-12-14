@@ -17,7 +17,7 @@ const ClaimForm = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Claim Value Section */}
 
-        <div className="py-4 px-2">
+        <div className="pt-2 px-2 ">
           <div className="flex items-center space-x-2 mb-2">
             <span className="text-blue-500 ">
               <i class="fa-solid fa-calculator fa-2x"></i>
@@ -27,7 +27,7 @@ const ClaimForm = () => {
             </h3>
           </div>
 
-          <div className="space-y-3 ml-8 p-2">
+          <div className="space-y-3 ml-8 px-2">
             <div>
               <label className="block text-xs text-gray-600 mb-1">
                 Contract Value
@@ -61,14 +61,14 @@ const ClaimForm = () => {
         </div>
 
         {/* Place Section */}
-        <div className="py-4 px-2">
+        <div className="pt-2 px-2">
           <div className="flex items-center space-x-2 mb-2">
             <span className="text-blue-500">
               <i className="fas fa-map-marker-alt fa-2x"></i>
             </span>
             <h3 className="font-semibold text-base text-gray-700">Place</h3>
           </div>
-          <div className="p-2 ml-4 ">
+          <div className="px-2 ml-4 ">
             <input
               type="text"
               className="w-full border border-gray-300 rounded-md p-2 text-xs focus:outline-none focus:ring-2 focus:ring-blue-400"
@@ -99,7 +99,7 @@ const ClaimForm = () => {
         </div>
 
         {/* Language Section */}
-        <div className="py-4 px-2">
+        <div className="pt-2 px-2">
           <div className="flex items-center space-x-2 mb-2">
             <span className="text-blue-500">
               <i className="fas fa-language fa-2x"></i>
@@ -141,7 +141,7 @@ const ClaimForm = () => {
       {/* Second Row */}
       <div className="w-full h-0.5 bg-gray-300 relative "></div>
       
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6 ">
         {/* Statement Section */}
         <div className="">
           <div className="flex items-center space-x-2 mb-2">
